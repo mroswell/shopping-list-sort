@@ -1,7 +1,7 @@
-
+** Preliminary ** 
 - Install the Instacart Extension
   https://chrome.google.com/webstore/detail/instacart/bgahnnmgfefgglocpkoiaeefhcfkiokl
-  See how it works with a sample recipe such as: https://www.allrecipes.com/recipe/186378/sweet-potato-carrot-apple-and-red-lentil-soup/
+- See how it works with a sample recipe such as: https://www.allrecipes.com/recipe/186378/sweet-potato-carrot-apple-and-red-lentil-soup/
 
 **Website Specs**
 - Paste a shopping list into an input box.
