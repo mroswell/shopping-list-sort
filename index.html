@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="radio-div">
+        <!-- Radio buttons div on top -->
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-primary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Option 1
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Option 2
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="option3" autocomplete="off"> Option 3
+            </label>
+        </div>
+    </div>
+    <div class="content-row">
+        <div class="left-column">
+            <!-- Content for the left column -->
+            <h2>Left Column</h2>
+            <textarea class="form-control input-box" rows="4" oninput="adjustTextareaHeight(this)" placeholder="Enter text in left column"></textarea>
+            <button class="btn btn-primary mt-3" type="submit">Submit</button>
+        </div>
+
+        <div class="right-column">
+            <!-- Content for the right column -->
+            <h2>Right Column</h2>
+            <textarea id="right-input" class="form-control input-box" rows="4" oninput="adjustTextareaHeight(this)" placeholder="Enter text in right column"></textarea>
+            <button class="btn btn-primary copy-button" onclick="copyText()">Copy</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
